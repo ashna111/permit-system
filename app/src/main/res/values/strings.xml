@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Permit System</string>
+    <string-array name="spinner_options_array">
+        <item>6am to 9am</item>
+        <item>9am to 12pm</item>
+        <item>3pm to 6pm</item>
+    </string-array>
+
+    <string-array name="adult_number">
+        <item>--Please Select--</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+    </string-array>
+
+    <string-array name="child_number">
+        <item>--Please Select--</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+    </string-array>
+
+</resources>
