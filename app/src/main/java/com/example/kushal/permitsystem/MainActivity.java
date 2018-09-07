@@ -19,7 +19,9 @@ public class MainActivity extends AppCompatActivity {
             public void onSelectedDayChange(CalendarView calendar,int year, int month, int dayOfMonth){
                 String date = dayOfMonth+"/"+(month+1)+"/"+year;
                 Intent i = new Intent(MainActivity.this ,DetailsActivity.class);
-                i.putExtra("date",date);
+                Bundle b=new Bundle();
+                b.putString("date",date);
+                i.putExtras(b);
                 startActivity(i);
             }
 

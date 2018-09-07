@@ -16,7 +16,7 @@ public class DetailsActivity extends AppCompatActivity {
 
         TextView selected_date=(TextView) findViewById(R.id.date_field);
         Intent from_main=getIntent();
-        String date=from_main.getStringExtra("date");
+        String date=from_main.getExtras().getString("date");
         selected_date.setText(date);
 
         Spinner spinner = (Spinner) findViewById(R.id.time_slot);
