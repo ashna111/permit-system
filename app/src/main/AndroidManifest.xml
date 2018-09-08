@@ -17,7 +17,12 @@
             </intent-filter>
         </activity>
         <activity android:name=".DetailsActivity"
-            android:label="Details"></activity>
+            android:label="Details"
+            android:parentActivityName="com.example.kushal.permitsystem.MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.kushal.permitsystem.MainActivity" />
+        </activity>
     </application>
 
 </manifest>
