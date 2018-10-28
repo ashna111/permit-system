@@ -2,4 +2,5 @@
 
 ## Initial Conrtibutors
 
-Ashna Shah (ashna111) , Dhruvil Shah (GodKiller98)
+* [Ashna Shah](https://github.com/ashna111)
+* [Dhruvil Shah](https://github.com/Godkiller98)
